@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F4F4F4;
+}
+
+.service-cap{
+  padding: 72px 0px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 80px;
+}
+
+.service-cap .container{
+  padding: 0 200px;
+}
+
+.service-cap-title{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.sevice-cap-text{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.service-main-blocks{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 32px;
+  width: 805px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.create-site-text{
+  margin: 0;
+  padding: 0;
+  text-align:left;
+}
+
+.create-site-list{
+  margin-bottom: 16px;
+}
+.create-site-item{
+  margin-bottom: 8px;
+}
+
+.create-site-item::before{
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/svg/circle.svg);
+  background-position: left 0 center;
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+}
+
+.create-site-cap{
+  margin-top: 0;
+  padding-left: 272px;
+  
+}
+
+.more-link{
+  color: #00BAFC;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  margin-left: 16px;
+}
+
+.create-site::before{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 128px;
+  background-image: url(../img/png/site.png);
+  background-repeat: no-repeat;
+  background-size: 200px 128px;
+} 
+
+.create-telegram-bot::before{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 128px;
+  background-image: url(../img/png/telegram-bot.png);
+  background-repeat: no-repeat;
+  background-size: 200px 128px;
+} 
+
+.site_smm::before{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 147px;
+  background-image: url(../img/png/smm.png);
+  background-repeat: no-repeat;
+  background-size: 200px 147px;
+
+}
+
+.site_design::before{ 
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 128px;
+  background-image: url(../img/png/design.png);
+  background-repeat: no-repeat;
+  background-size: 200px 128px;
+} 
+
+.site_crm::before{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 128px;
+  background-image: url(../img/png/crm.png);
+  background-repeat: no-repeat;
+  background-size: 200px 128px;
+} 
